@@ -1,0 +1,61 @@
+body { 
+     
+      margin: 30%  auto  20% auto;
+      background: lightblue;
+   
+     
+    } 
+
+
+h3{font-family: 'Courier New', Courier, monospace; font-size: 500%; text-align: center; margin: 0  auto  0 auto;  padding: 30px;}
+ 
+p1{ text-align:justify;
+
+}
+
+
+table{
+    
+        
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+        margin: 0  auto  10% auto;
+       
+        
+      }
+      #arak tr {
+       
+        border-collapse: collapse;
+        width: 50%;
+      
+      }
+      #arak th {
+        /*padding-top: 12px;
+        padding-bottom: 12px;*/
+        text-align: center;
+                     
+      }
+      #arak tr:nth-child(even){background-color: #f2f2f6;}
+        #arak tr:hover {background-color: #ddd;}
+      
+      #arak td, #arak th {
+        border: 1px solid rgb(8, 8, 8);
+        padding: 20px;
+           
+      }
+
+  h4{ font-family: arial, sans-serif;
+    border-collapse: collapse;
+    
+
+  }
+      
+       
+      
+      
+       
+      
+     
+      
+
