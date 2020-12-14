@@ -1,6 +1,6 @@
 body { 
   
-  margin: 4%  auto  20% auto;
+  margin: 4%  8%  20% 8%;
   /* background: lightblue;*/
      
     }
@@ -19,6 +19,7 @@ img{align:center;}
 #kepes{ text-align:justify;
 border-collapse: collapse;
 
+
 }
 
 
@@ -26,7 +27,7 @@ table{
         
         font-family: arial, sans-serif;
         border-collapse: collapse;
-        width: 50%;
+        width: 60%;
         margin: 0  auto  10% auto;
        
         
@@ -34,7 +35,7 @@ table{
       #arak tr {
        
         border-collapse: collapse;
-        width: 50%;
+        width: 60%;
       
       }
       #arak th {
