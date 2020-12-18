@@ -1,41 +1,58 @@
 body { 
   
-  margin: 4%  8%  20% 8%;
-  /* background: lightblue;*/
-     
+  margin: 4%  6%  20% 6%; 
+  background-color: #cccccc;
+  background-image: linear-gradient(white 37%  , lightblue );
     }
     
 
 h4{ font-family: arial, sans-serif;/*elerhetosegek*/
   border-collapse: collapse;
+  @media only screen and (max-width: 640px) {
+.click-mobile {
+font-size: 22px;
+}
+}
   }
   
+ /*kép+ szöveg*/
+ img{
+ 	float:left;
+	margin-right:5%;
+	 margin-top:-5% ;
+	 margin-bottom: 3%;
+	
+	}
+	
+.container{
+	display: inline-block;
+	 text-align:justify;
+	 stlye: responsible;
+	 padding: 15px;
+	 line-height: 220%; /*nagy sorköz*/
+	}
+
   
 /*Araink*/
-h3{font-family: 'Courier New', Courier, monospace; font-size: 300%; text-align: center; margin: 0  auto  0 auto;  padding: 40px;}
-
-img{align:center;}
+h3{font-family: 'Courier New', Courier, monospace;
+ font-size: 300%; 
+ text-align: center;
+ padding: 10px;
+  }
  
-#kepes{ text-align:justify;
-border-collapse: collapse;
-
-
-}
-
-
-table{    
+table{   
         
         font-family: arial, sans-serif;
         border-collapse: collapse;
-        width: 60%;
-        margin: 0  auto  10% auto;
+        width: 80%;
+        margin: 0  10%  10% 10%;
+		align: middle;
        
-        
-      }
+              }
       #arak tr {
        
         border-collapse: collapse;
-        width: 60%;
+        width: 50%;
       
       }
       #arak th {
@@ -51,5 +68,3 @@ table{
            
       }
  
-     
-
